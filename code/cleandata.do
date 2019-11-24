@@ -26,6 +26,7 @@ forvalues y = 2001/2007 {
 	append using data/raw/merged_`y'.dta
 	erase data/raw/merged_`y'.dta
 }
+erase data/raw/merged_1999.dta 
 
 *labeling
 label variable ffood "var label of ffood"
