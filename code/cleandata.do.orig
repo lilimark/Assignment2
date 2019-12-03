@@ -19,7 +19,7 @@ forvalues y = 1999/2007 {	forvalues y = 1999/2007 {
 	save data/raw/merged_`y'.dta, replace
 }	}
 
-
+<<<<<<< HEAD
 
 * value labels	* panel structure
 use merged_1999.dta, clear	use data/raw/merged_1999.dta, clear
@@ -29,7 +29,7 @@ lab def counting 0"zero" 1"one" 2"two" 3"three"	}
 //tabmiss ffood afood	save data/raw/panel.dta, replace
 destring ffood afood, replace	
 //tabmiss ffood afood	
-
+=======
 	if `y'!=2000 {
 		use data/raw/SchoolData`y'.dta
 		merge 1:1 schoolcode using data/raw/RestaurantData`y'.dta, nogen 
@@ -54,3 +54,4 @@ forvalues y = 2000/2007 {
 		save data/raw/merged_`y'.dta, replace
 
 save data/raw/panel.dta, replace
+>>>>>>> 7729afdab24f914ef66528e4baac8f90a67626a0
