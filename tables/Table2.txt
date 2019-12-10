@@ -1,0 +1,25 @@
+		(1)	(2)	(3)	(4)
+VARIABLES	LABELS				
+					
+ffood_1	Availability of fast food restaurant within 0.1 miles	3.0807***	1.7492***	6.1955***	6.4215***
+		(0.7378)	(0.5810)	(1.8076)	(1.7798)
+afood_1	Availability of other restaurant within 0.1 miles	0.6817	-0.6131*	1.0939	1.0291
+		(0.4284)	(0.3356)	(0.9489)	(0.9375)
+ffood_2	Availability of fast food restaurant within 0.25 miles	-2.4859***	-0.8905***	-1.8486*	-1.8072*
+		(0.4299)	(0.3361)	(1.0381)	(1.0221)
+afood_2	Availability of other restaurant within 0.25 miles	2.1416***	0.0581	0.2690	0.0498
+		(0.3381)	(0.2708)	(0.6981)	(0.6888)
+ffood_3	Availability of fast food restaurant within 0.5 miles	1.3903***	-0.0541	-0.9173	-0.8688
+		(0.3217)	(0.2580)	(0.6771)	(0.6698)
+afood_3	Availability of other restaurant within 0.5 miles	1.2266***	0.4871	0.1266	-0.3812
+		(0.3945)	(0.3206)	(0.7486)	(0.7404)
+					
+Observations		8,373	8,373	8,373	8,373
+R-squared		0.0209	0.4295	0.6360	0.6510
+School fixed effects		---	---	Yes	Yes
+Year fixed effects		---	Yes	---	Yes
+School controls		---	Yes	---	Yes
+Census block controls		---	Yes	---	Yes
+Implied cumulative effect		1.9852	.8045	3.4296	3.7455
+Standard errors in parentheses					
+*** p<0.01, ** p<0.05, * p<0.1					
